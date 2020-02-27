@@ -1,0 +1,53 @@
+.tab-bottom-container {
+  height: 90px;
+  position: fixed;
+  bottom: 0;
+  background: #000000;
+  width: 100vw;
+  padding: 0 130px;
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    align-items: center;
+
+    .can-get-title {
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .current-tab-tips {
+      font-size: 12px;
+      color: #ffffff;
+      padding-left: 90px;
+    }
+
+    .less-price-text,
+    .less-price--unit-text {
+      margin-left: 205px;
+      .price {
+        font-size: 24px;
+        color: #ffffff;
+      }
+
+      .tips {
+        color: #e2e2e2;
+        font-size: 16px;
+      }
+    }
+
+    .less-price--unit-text {
+      margin-left: 150px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+
+    .btn-wrapper {
+      width: 174px;
+    }
+  }
+}

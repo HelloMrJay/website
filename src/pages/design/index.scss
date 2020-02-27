@@ -1,0 +1,27 @@
+.pc-design-container {
+  background: #FFFFFF;
+  height: 100vh;
+
+  .header-left__wrapper {
+    width: 323px;
+  }
+
+  .header-center__wrapper {
+    width: 1087px;
+  }
+
+  .header-right__wrapper {
+    width: 510px;
+  }
+
+  .design-content {
+    height: calc(100vh - 90px);
+    padding-top: 72px;
+    text-align: center;
+  }
+
+  .bottom-tips-content {
+    display: inline-block;
+    width: 370px;
+  }
+}

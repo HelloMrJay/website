@@ -5,15 +5,14 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect
 } from "react-router-dom";
 
 const RouterFC: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Redirect from="/" to="/home" exact />
-        <Route path="/home">
+        {/* <Redirect from="/" to="/home" exact /> */}
+        <Route path="/">
           <Home />
         </Route>
       </Switch>

@@ -10,7 +10,11 @@ body {
   background: $--themecolor;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 500;
 }

@@ -1,0 +1,40 @@
+.tab-container {
+  width: 100%;
+
+  .tab-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 72px;
+
+    .tab-item {
+      margin-left: 96px;
+      cursor: pointer;
+
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+
+      .title {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.85);
+      }
+
+      .sub-title {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.55);
+        padding-left: 15px;
+      }
+    }
+
+    .tab-item-underline {
+      height: 3px;
+      background: #2419CD;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 123px;
+    }
+  }
+}

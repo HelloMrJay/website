@@ -1,0 +1,17 @@
+.pc-care-container {
+  height: 100vh;
+  overflow: auto;
+
+  .swiper-container {
+    height: 100vh;
+  }
+
+  .to-bottom-image {
+    width: 24px;
+    position: fixed;
+    bottom: 20px;
+    left: 948px;
+    cursor: pointer;
+    user-select: none;
+  }
+}
