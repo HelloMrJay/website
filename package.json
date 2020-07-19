@@ -23,7 +23,7 @@
     "customize-cra": "^0.9.1",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-sass": "^4.13.1",
     "postcss-px-to-viewport": "^1.1.1",
     "qrcode.react": "^1.0.0",
